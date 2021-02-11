@@ -154,6 +154,14 @@
     justify-content: space-between;
     align-items: center;
   }
+  /*nuevo cambio en banner principal*/
+  @media screen and (max-width:360px){
+    .home_img{
+      height: 310px;
+    }
+  
+  }
+  /*cambio colocado*/
   @media screen and (max-width:768px){
     .inicio_logo_banner{
       width: 50px;
