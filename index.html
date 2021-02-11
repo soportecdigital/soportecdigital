@@ -1,3 +1,232 @@
-<h1>Hola mundo </h1>
-<p>Mi parrafo</p>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Soportec - Digital & Accesorios</title>
+    <script src="validacion.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="./index.html" class="nav_logo">SOPORTEC</a>
+        </div>
+        <div class="nav_menu" id='nav_menu'>
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#" class="nav_link active">INICIO</a></li>
+            <li class="nav_item"><a href="./about.html" class="nav_link">NOSOTROS</a></li>
+            <li class="nav_item"><a href="#featured" class="nav_link">DESTACADOS</a></li>
+            <li class="nav_item"><a href="promociones.html" class="nav_link">PROMOCIONES</a></li>
+            <li class="nav_item"><a href="./shop-grid.html" class="nav_link">PRODUCTOS</a></li>
+            <li class="nav_item"><a href="https://api.whatsapp.com/send?phone=51957782143&text=Hola!%20Quiero%20obtener%20informaci%C3%B3n%20sobre%20los%20productosw" class="nav_link">WHATSAPP <img src="img/iconitos/whatsapp-logo-24.png" alt=""> </a></li>
+            <!-- <li class="nav_item"><a href="#suscribed" class="nav_link"  onclick="mover()">SUSCRIBETE</a></li> -->
+          </ul>
+        </div>
+        <!-- <i class='bx bx-cart nav_cart'></i> -->
+        <i class="bx bx-menu nav_toggle" id="nav_toggle"></i>
+
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- HOME -->
+      <section class="home" id='home'>
+        <div class="home_container">
+
+          <div class="home_data">
+            <!-- <h1 class="home_title">NEW <br><span>ARRIVALS</span></h1> -->
+            <img src="img/LOGO_oscuro.png" alt="" class="inicio_logo_banner"><br/>
+            <h1>SOPORTEC - Digital & Accesorios</h1>
+            <h3>Accesorios para escritorio</h3>
+            <a href="#featured" class="button btn-principal">VER PRODUCTOS</a>
+          </div>
+
+          <img src="./img/home_1.png" class="home_img">
+        </div>
+      </section>
+
+      <!-- PRODUCTOS DESTACADOS -->
+      <section class="featured section" id='featured'>
+        <h2 class="section-title">PRODUCTOS DESTACADOS</h2>
+        <a href="./shop-grid.html" class="section-all">Ver todo el catálogo</a>
+
+        <div class="featured_container bd-grid">
+          <div class="featured_product">
+            <div class="featured_box">
+              <div class="featured_new">NUEVO</div>
+              <a href="mouse-inalambrico.html"> <img src="./img/mouse_sin_fondo.png" class="featured_img" ></a>
+            </div>
+            <div class="featured_data">
+              <h3 class="featured_name">Mouse Inalámbrico</h3>
+              <span class="featured_preci">S/50.00</span>
+            </div>
+          </div>
+
+          <div class="featured_product">
+            <div class="featured_box">
+              <div class="featured_new">NUEVO</div>
+              <a href="soporte-tablet.html"><img src="./img/soporte_tab.png" class="featured_img"></a>
+            </div>
+            <div class="featured_data">
+              <h3 class="featured_name">SOPORTE / TABLET-IPAD</h3>
+              <span class="featured_preci">S/55.00</span>
+            </div>
+          </div>
+
+          <div class="featured_product">
+            <div class="featured_box">
+              <div class="featured_new">NUEVO</div>
+              <a href="soporte-celular.html"><img src="./img/soporte_celular.png" class="featured_img"></a>
+            </div>
+            <div class="featured_data">
+              <h3 class="featured_name">SOPORTE / CELULARES</h3>
+              <span class="featured_preci">S/35.00</span>
+            </div>
+          </div>
+
+          <div class="featured_product">
+            <div class="featured_box">
+              <div class="featured_new">NUEVO</div>
+              <a href="pedestal.html"><img src="./img/soporte_pedestal.png" class="featured_img"></a>
+            </div>
+            <div class="featured_data">
+              <h3 class="featured_name">SOPORTE / PEDESTAL</h3>
+              <span class="featured_preci">S/49.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OFERTAS-->
+      <section class="offer section">
+        <div class="offer_bg">
+          <div class="offer_data">
+            <h2 class="offer_title">A cuidarnos en tiempos de Pandemia</h2>
+            <p class='offer_description'>Ofertas y productos para cuidar nuestra salud </p>
+            <a href="promociones.html" class="button">VER OFERTAS</a>
+          </div>
+        </div>
+      </section>
+      <!-- NUESTROS PRODUCTOS -->
+      <section class="new section-index section_product" id='new'>
+        <h2 class="section-title">NUESTROS PRODUCTOS</h2>
+        <a href="./shop-grid.html" class="section-all">Ver Todos</a>
+
+        <div class="new_container bd-grid">
+          <div class="new_box">
+            <img src="./img/new_101.png" class="new_img">
+            <div class="new_link">
+              <a href="./soporte-tablet.html" class="button">Ver producto</a>
+            </div>
+          </div>
+
+          <div class="new_box">
+            <img src="./img/new_102.png" class="new_img">
+            <div class="new_link">
+              <a href="./pedestal.html" class="button">Ver producto</a>
+            </div>
+          </div>
+
+          <div class="new_box">
+            <img src="./img/new_103.png" class="new_img">
+            <div class="new_link">
+              <a href="./soporte-laptop.html" class="button">Ver producto</a>
+            </div>
+          </div>
+
+          <div class="new_box">
+            <img src="./img/new_104.png" class="new_img">
+            <div class="new_link">
+              <a href="./soporte-celular.html" class="button">Ver producto</a>
+            </div>
+          </div>
+
+          <div class="new_box">
+            <img src="./img/new_105.png" class="new_img">
+            <div class="new_link">
+              <a href="./mouse_bluetooh.html" class="button">Ver producto</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- SUSCRIPCION -->
+      <section class="newsletter section-index" id='suscribed'>
+        <div class="newsletter_container bd-grid">
+          <div class="newsletter_suscribe">
+            <h2 class="newsletter_description">BOLETÍN DE NOVEDADES</h2>
+            <p class="newsletter_description">Recibe nuestras promociones y novedades ingresando tu correo </p>
+
+            <form class="newsletter_form" action="" onsubmit="function validacion();">
+              <input type="text" class="newsletter_input" placeholder="Escribe tu Email" id="correos">
+              <a href="#" class="button">SUSCRIBETE</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- FOOTER -->
+    <footer class="footer section-index">
+      <div class="footer_container bd-grid">
+        <div class="footer_box">
+          <h1 class="footer_title">SOPORTEC</h1>
+          <h3 class="footer_deal">Digital & Accesorios</h3><br>
+          <img src="./img/LOGO_blanco.png" alt="" style="width:100px;height:100px;padding-left:15px">
+          <!-- <a href="#"> <img src="./img/footerstore1.png" class="footer_store"> </a> -->
+          <!-- <a href="#"> <img src="./img/footerstore2.png" class="footer_store"> </a> -->
+        </div>
+        <div class="footer_box">
+          <h3 class="footer_title">EXPLORAR</h3>
+          <ul>
+            <li><a href="./index.html" class="footer_link">Inicio</a></li>
+            <li><a href="./about.html" class="footer_link">Nosotros</a></li>
+            <li><a href="#featured" class="footer_link">Destacados</a></li>
+            <li><a href="promociones.html" class="footer_link">Promociones</a></li>
+            <li><a href="./shop-grid.html" class="footer_link">Productos</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=51957782143&text=Hola!%20Quiero%20obtener%20informaci%C3%B3n%20sobre%20los%20productos" class="footer_link">Contactarse por Whatsapp</a></li>
+          </ul>
+        </div>
+        <!--
+        <div class="footer_box">
+          <h3 class="footer_title">OUR SERVICES</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Pricing</a></li>
+            <li><a href="#" class="footer_link">Free Shipping</a></li>
+            <li><a href="#" class="footer_link">Gift Cards</a></li>
+          </ul>
+        </div>
+      -->
+        <div class="footer_box">
+          <h3 class="footer_title">REDES SOCIALES</h3>
+          <a href="https://www.facebook.com/Sdigitalyaccesorios" class="footer_social"><i class="bx bxl-facebook-square"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+      <p class="footer_copy"> Copyright © 2021 Soportec-Digital&Accesorios. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+
+    <!-- javascript -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <!-- chat whatsapp -->
+    <!--
+<div class="elfsight-app-2ef6a714-d4b4-4da6-87a9-237fb23d9bf6"></div>-->
+    <script type="text/javascript" src="ecommerce.js">
+
+
+    </script>
+  </body>
+</html>
