@@ -161,6 +161,11 @@
     }
   
   }
+  @media screen and (max-height:600px){
+    .home_img{
+      display: none;
+    }
+  }
   /*cambio colocado*/
   @media screen and (max-width:768px){
     .inicio_logo_banner{

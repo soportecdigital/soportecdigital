@@ -35,3 +35,12 @@ function mover(){
   toggle.classList.toggle('active');
   menu.classList.toggle('active');
 }
+//Funcion para index - movil - destacado
+let ret_desta = document.getElementById(ret_desta);
+const toggle3 = document.querySelector("#nav_menu");
+let destacado = $("#ret_desta");
+$("#ret_desta").click(function(){
+  //$("#nav_menu").classList.remove("show");
+  alert("corriendo");
+});
+

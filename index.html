@@ -24,7 +24,7 @@
           <ul class="nav_list">
             <li class="nav_item"><a href="#" class="nav_link active">INICIO</a></li>
             <li class="nav_item"><a href="./about.html" class="nav_link">NOSOTROS</a></li>
-            <li class="nav_item"><a href="#featured" class="nav_link">DESTACADOS</a></li>
+            <li class="nav_item"><a href="#featured" class="nav_link" id='ret_desta' onclick="sacando()">DESTACADOS</a></li>
             <li class="nav_item"><a href="promociones.html" class="nav_link">PROMOCIONES</a></li>
             <li class="nav_item"><a href="./shop-grid.html" class="nav_link">PRODUCTOS</a></li>
             <li class="nav_item"><a href="https://api.whatsapp.com/send?phone=51957782143&text=Hola!%20Quiero%20obtener%20informaci%C3%B3n%20sobre%20los%20productosw" class="nav_link">WHATSAPP <img src="img/iconitos/whatsapp-logo-24.png" alt=""> </a></li>
@@ -101,7 +101,7 @@
             </div>
             <div class="featured_data">
               <h3 class="featured_name">SOPORTE / PEDESTAL</h3>
-              <span class="featured_preci">S/49.00</span>
+              <span class="featured_preci">S/45.00</span>
             </div>
           </div>
         </div>
@@ -224,9 +224,14 @@
     <!-- chat whatsapp -->
     <!--
 <div class="elfsight-app-2ef6a714-d4b4-4da6-87a9-237fb23d9bf6"></div>-->
-    <script type="text/javascript" src="ecommerce.js">
-
-
+    <script type="text/javascript" src="ecommerce.js"></script>
+    <script>
+      let menuPeque = document.querySelector("#nav_menu");
+      function sacando(){
+        menuPeque.classList.remove('show');
+        //alert("aqui");
+        
+      }
     </script>
   </body>
 </html>
